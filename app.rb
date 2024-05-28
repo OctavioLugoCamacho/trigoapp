@@ -1,6 +1,26 @@
 require 'sinatra'
 require "sinatra/reloader"
 
+get '' do
+  erb :index, :locals => {:title => "Variable desde el back"}
+end
+
 get '/' do
-  erb :index, :locals => {:title => "Una variable desde el back"}
+  erb :index, :locals => {:title => "Variable desde el back"}
+end
+
+get '/inicio' do
+  erb :index, :locals => {:title => "Variable desde el back"}
+end
+
+get '/contacto' do
+  erb :contacto
+end
+
+get '/nosotros' do
+  erb :nosotros
+end
+
+get '/cursos' do
+  erb :cursos
 end

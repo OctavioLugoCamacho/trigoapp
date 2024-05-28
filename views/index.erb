@@ -1,22 +1,100 @@
-<!DOCTYPE html>
-<html lang="en">
+<script src="js/main.js"></script>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Index</title>
-</head>
-<header>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-</header>
+<section class="section section-concept section-no-border section-dark section-angled section-angled-reverse pt-5 m-0"
+	id="section-concept"
+	style="background-image: url(img/map.png); background-size: cover; background-position: center; animation-duration: 750ms; animation-delay: 300ms; animation-fill-mode: forwards;">
+	<div class="section-angled-layer-bottom bg-light" style="padding: 3rem 0;"></div>
+	<div class="container pt-5 mt-5">
+		<div class="row align-items-center pt-3">
+			<div class="col-lg-5 mb-5">
+				<h1 class="font-weight-bold text-12 line-height-2 mb-3 animate__animated animate__zoomInLeft">INSTITUTO DE EDUCACIÓN NÁUTICA Y PORTUARIA
+					OCÉANO PACÍFICO<span><span
+							class="d-inline-block text-primary highlighted-word highlighted-word-rotate highlighted-word-animation-1 highlighted-word-animation-1-no-animate alternative-font-3 font-weight-bold text-1 ms-2"></span></span>
+				</h1>
+				<p class="font-text-navbar custom-font-size-1 animate__animated animate__zoomInRight">Instituto autorizado por la Secretaría de Comunicaciones
+					y Transportes
+					(SCT) y por la Dirección General de Marina Mercante (DGMM)</p>
 
-<body>
-  Index Prueba
-  <%= 1+3 %>
-  <button type="button" class="btn btn-primary">Primary</button>
-  <script src="js/main.js"></script>
-</body>
+				<a class="d-none video-open lightbox d-block text-color-light text-decoration-none"
+					href="#popup-content-1" data-trigger-play-video="#popupPresentation">
+					<div class="video-open-icon"></div>See How It Works
+				</a>
 
-</html>
+				<div id="popup-content-1" class="dialog dialog-lg zoom-anim-dialog rounded p-3 mfp-hide mfp-close-out">
+					<div class="ratio ratio-4x3">
+
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-6 offset-lg-1 mb-5">
+				<div class="position-relative clearfix" data-remove-min-height style="min-height: 446px;">
+					<img align="center" src="img/image-ienpop/logoAzul.svg">
+
+					</a>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</section>
+
+<section id="intro" class="section section-no-border section-angled bg-light pt-0 pb-5 m-0">
+	<div class="section-angled-layer-bottom section-angled-layer-increase-angle bg-color-light-scale-1"
+		style="padding: 21rem 0;"></div>
+	<div class="container pb-5" style="min-height: 1000px;">
+		<div class="row mb-5 pb-lg-3 counters">
+			<div class="col-lg-10 text-center offset-lg-1">
+				<p class="sub-title text-primary text-8 font-weight-semibold positive-ls-2 mt-2 mb-4">¿Quiénes <span
+						class="highlighted-word highlighted-word-animation-1 highlighted-word-animation-1-2 highlighted-word-animation-1 highlighted-word-animation-1-no-rotate alternative-font-4 font-weight-semibold line-height-2 pb-2">somos?</span>
+				</p>
+				<p class="font-text text-color-default negative-ls-05 pt-3 pb-4 mb-5">Somos un Instituto que brinda
+					servicios de educación de vanguardia en el ramo marítimo y portuario, acorde con las necesidades y
+					expectativas actuales de la Marina Mercante Mexicana, cuya actividad se enfoca al desarrollo de
+					programas de estudio, impartición y certificación de cursos de formación, capacitación y
+					adiestramiento para los diferentes niveles profesionales, técnicos y prácticos que conforman la
+					Marina Mercante Nacional.</p>
+			</div>
+		</div>
+		<div class="intro row align-items-center justify-content-center justify-content-md-start">
+			<div class="col-3 pe-0 ps-3 position-relative z-index-2">
+				<img src="img/lazy.png" data-src="img/image-ienpop/salto-index.jpg"
+					class="lazyload img-fluid border border-width-10 border-color-light box-shadow-3 rounded d-none d-md-block appear-animation"
+					alt="Screenshot 2" data-appear-animation="fadeInUp" data-appear-animation-delay="600">
+				<div class="position-absolute d-none d-md-flex align-items-end appear-animation"
+					data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="900"
+					style="bottom: -60px; right: -90px;">
+					<span class="arrow hlt" style="margin-right: -70px;"></span>
+					<strong class="font-text-navbar text-color-dark mb-4 pb-3">Confianza!</strong>
+				</div>
+			</div>
+			<div class="col-11 col-md-9 position-relative ps-0 pe-5 pb-5 pb-md-0 mb-5 mb-md-0">
+				<div class="intro2 pt-5 pt-md-0 mt-5 mt-lg-0 appear-animation pe-5" data-appear-animation="fadeInUp"
+					data-appear-animation-delay="400"><img src="img/lazy.png" data-src="img/image-ienpop/team.jpg"
+						class="lazyload img-fluid box-shadow-3 position-relative z-index-1 rounded" alt="Screenshot 1"
+						style="left: -110px;"></div>
+				<div class="intro3 z-index-3 position-absolute appear-animation" data-appear-animation="fadeInUp"
+					data-appear-animation-delay="800" style="top: 20%; right: 4%;">
+					<img src="img/lazy.png" data-src="img/image-ienpop/festejo.jpg"
+						class="lazyload img-fluid border border-width-10 border-color-light box-shadow-3 rounded"
+						alt="Screenshot 3">
+					<div class="position-absolute d-none d-md-flex align-items-end appear-animation"
+						data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1100"
+						style="bottom: -135px; right: -20px;">
+						<strong class="font-text-navbar text-color-dark mb-3">Simulacros!</strong>
+						<span class="arrow hru"></span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<style>
+	.font-text {
+		font-size: x-large !important;
+	}
+
+	.font-text-navbar {
+		font-size: large !important;
+	}
+</style>
