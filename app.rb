@@ -2,5 +2,5 @@ require 'sinatra'
 require "sinatra/reloader"
 
 get '/' do
-  'Hello world!'
+  erb :index, :locals => {:title => "Una variable desde el back"}
 end
