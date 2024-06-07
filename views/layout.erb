@@ -69,8 +69,8 @@
 														</a>
 													</li>
 													<li class="dropdown">
-														<a class="font-text-navbar dropdown-item dropdown-toggle" href="/cursos">
-															Cursos
+														<a class="font-text-navbar dropdown-item dropdown-toggle" href="/productos">
+															Productos
 														</a>
 													</li>
 													<li class="dropdown">
@@ -94,13 +94,64 @@
 				<%= yield %>
 			</main>
 
-			<footer id="footer" class="bg-color-dark-scale-2 border border-end-0 border-start-0 border-bottom-0 border-color-light-3 mt-0">
-				<div class="copyright bg-dark py-4">
-					<div class="container text-center py-2">
-						<a href="/inicio">
-							<img align="center" src="img/image-ienpop/logo.png" width="100">
-						</a>
-						<h4 class="font-text text-4 mb-4">© 2024 Lo Mejor del Trigo </h4>
+			<footer id="footer" class="footer-texts-more-lighten mt-0">
+				<div class="container">
+					<div class="row py-4 my-5">
+						<div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
+							<h5 class="text-4 text-color-light mb-3">CONTACTO</h5>
+							<ul class="list list-unstyled">
+								<li class="pb-1 mb-2">
+									<span class="d-block font-weight-normal line-height-1 text-color-light">DIRECCIÓN</span> 
+									Real del Sol, Tecámac Edo. México
+								</li>
+								<li class="pb-1 mb-2">
+									<span class="d-block font-weight-normal line-height-1 text-color-light">TELÉFONO</span>
+									<a href="tel:+1234567890">+52 5554625774</a>
+								</li>
+								<li class="pb-1 mb-2">
+									<span class="d-block font-weight-normal line-height-1 text-color-light">CORREO</span>
+									<a href="mailto:mail@example.com">lomejordeltrigo@gmail.com</a>
+								</li>
+								<li class="pb-1 mb-2">
+									<span class="d-block font-weight-normal line-height-1 text-color-light">HORARIOS</span>
+									Lunes - Sábado / 9:00AM - 8:00PM
+								</li>
+							</ul>
+						</div>
+						<div class="col-md-6 col-lg-2 mb-5 mb-lg-0">
+							<h5 class="text-4 text-color-light mb-3">ENLACES</h5>
+							<ul class="list list-unstyled">
+								<li class="mb-0"><a href="/inicio">Inicio</a></li>
+								<li class="mb-0"><a href="/nosotros">Quiénes Somos</a></li>
+								<li class="mb-0"><a href="/productos">Productos</a></li>
+								<li class="mb-0"><a href="/contacto">Contacto</a></li>
+							</ul>
+							<ul class="social-icons social-icons-clean-with-border social-icons-medium">
+								<li class="social-icons-instagram">
+									<a href="https://www.instagram.com/lomejordeltrigobakery?igsh=OGY1Y2FibWM3MXds" class="no-footer-css" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+								</li>
+								<li class="social-icons-facebook">
+									<a href="https://www.facebook.com/share/B4szPz9QaXqtkQDz/?mibextid=LQQJ4d" class="no-footer-css" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+								</li>
+							</ul>
+						</div>
+						<div class="col-md-6 col-lg-3 mb-5 mb-md-0">
+							<h5 class="text-4 text-color-light mb-3">ACERCA DE LO MEJOR DEL TRIGO</h5>
+							<article class="mb-3">
+								<p class="line-height-2 mb-0">
+									Nuestro negocio, tu paladar. Nuestra especialidad: Cupckaes y Pasteles por pedido para todos tus eventos, deliciosos y divertidos.
+								</p>
+							</article>
+						</div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="footer-copyright footer-copyright-style-2 pt-4 pb-5">
+						<div class="row">
+							<div class="col-12 text-center">
+								<p class="mb-0">Lo Mejor del Trigo © 2024. Todos los derechos reservados.</p>
+							</div>
+						</div>
 					</div>
 				</div>
 			</footer>
@@ -134,12 +185,8 @@
 </html>
 
 <style>
-	#header .header-nav.header-nav-line nav > ul:not(:hover) li > a.active {
+	.header-nav-line{
 		color: #ffffff !important;
-	}
-
-	#header .header-nav.header-nav-line nav > ul:not(:hover) li > a.active:before {
-		background: #ffffff !important;
 	}
 	.font-text-navbar{
 		font-size: large !important;
@@ -147,15 +194,15 @@
 	.font-text{
 		font-size: x-large !important;
 	}
-    .color-title{
-        color: #99ccff !important;
-    }
-    .margin-icons{
-        margin-right: 5px;
-    }
-    @media only screen and (max-width: 991px) {
-        .navbar-static{
-            position: relative !important;
-        }
-  }
+	.color-title{
+			color: #99ccff !important;
+	}
+	.margin-icons{
+			margin-right: 5px;
+	}
+	@media only screen and (max-width: 991px) {
+			.navbar-static{
+					position: relative !important;
+			}
+}
 </style>

@@ -21,6 +21,6 @@ get '/nosotros' do
   erb :nosotros
 end
 
-get '/cursos' do
+get '/productos' do
   erb :cursos
 end
